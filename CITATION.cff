@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the exact commit or version used."
+type: software
+title: "Plaquette CMFT: a four-site cluster mean-field solver"
+authors:
+  - family-names: Miranda
+    given-names: Eduardo
+version: 0.1.0
+date-released: '2026-11-25'
+repository-code: 'https://github.com/emirandagit/plaquette-cmft'
+url: 'https://github.com/emirandagit/plaquette-cmft'
+license: MIT
+abstract: "A Fortran solver for four-site J=5/2 plaquettes with self-consistent dipolar and quadrupolar fields in stacked square lattices."

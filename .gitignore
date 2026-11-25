@@ -1,0 +1,10 @@
+/plaquette_cmf
+*.o
+*.mod
+__pycache__/
+/build/
+/runs/
+/*_summary.csv
+/*_branches.csv
+/*_moments.csv
+/*_quadrupoles.csv

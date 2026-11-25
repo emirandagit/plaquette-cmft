@@ -1,0 +1,16 @@
+&model
+  ! Small analytic benchmark, not a material parameter fit.
+  ! Energies are in meV, temperature in K, and field in T.
+  j0=0.1, j1=0.02, j2=0.01, delta=0.5
+  k0=0.0, k1=0.0, k2=0.0
+  b20=0.0, b40=0.0, b44=0.0
+  temperature=0.0, theta_deg=0.0, inplane='x'
+  b_start=100.0, b_stop=110.0, b_step=10.0
+  n_periods=1, periods=1
+  n_starts=1, start_ids=10
+  n_quad_starts=1, quad_start_ids=5
+  random_starts=0, keep_branches=1, seed_stride=1
+  anderson_depth=0, dual_mixing=.false., reverse_sweep=.false.
+  mixing=1.0, tolerance=1.0e-9, max_iter=10
+  output_prefix='saturation'
+/
